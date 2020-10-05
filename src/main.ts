@@ -8,8 +8,8 @@ async function bootstrap() {
   app.setGlobalPrefix('api');
 
   const options = new DocumentBuilder()
-    .setTitle('Learning NestJS')
-    .setDescription('Learning NestJS Learn Learn')
+    .setTitle('Luckydraw service')
+    .setDescription('Luckydraw service')
     .setVersion('1.0')
     .setBasePath('api')
     .addBearerAuth()

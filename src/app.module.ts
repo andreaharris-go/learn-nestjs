@@ -1,13 +1,13 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { ArticleModule } from './article/article.module';
+import { LuckydrawModule } from './luckydraw/luckydraw.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Connection } from 'typeorm';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot(),
-    ArticleModule
+    LuckydrawModule
   ],
   controllers: [
     AppController

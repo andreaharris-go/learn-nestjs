@@ -69,3 +69,11 @@ Now generate the prisma client from the migrated database with the following com
 
     npx prisma generate
 
+----------
+
+##### API Document
+
+----------
+
+    http://localhost:3000/docs
+    
