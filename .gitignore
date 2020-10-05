@@ -1,0 +1,12 @@
+logs
+*.log
+.DS_Store
+npm-debug.log*
+node_modules
+.npm
+.idea
+
+ormconfig.json
+src/config.ts
+coverage
+dist/*
