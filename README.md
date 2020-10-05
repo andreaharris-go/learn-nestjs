@@ -1,4 +1,4 @@
-# Getting started
+# Luckydraw API
 
 ## Installation
 Install dependencies
@@ -47,10 +47,6 @@ Set mysql database settings in ormconfig.json
 ##### Prisma
 
 ----------
-
-To run the example with Prisma checkout branch `prisma`, remove the node_modules and run `npm install`
-
-Create a new mysql database with the name `nestjsrealworld-prisma` (or the name you specified in `prisma/.env`)
 
 Copy prisma config example file for database settings
 
